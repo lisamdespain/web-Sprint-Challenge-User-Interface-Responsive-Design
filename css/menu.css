@@ -197,15 +197,67 @@ footer a {
         font-size: 4rem;
     }
 
-    /* menu */
-    .menu {
-        background-image: none;
-    }
-
-    /* footer section */
-    footer {
+    #menu {
+        width: 100%;
         height: auto;
-        padding-top: 2.5vh;
-        font-size: 2rem;
+        background-image: none;
+        justify-content:center;
     }
+    #menu .shadow{
+        background-color:rgb(225, 239, 230);
+        
+    }
+    .menu{
+        
+        flex-direction: column;
+        justify-content:center;  
+        
+        /* align-content: space-between; */
+       
+        
+        }
+    .menu-section{
+        
+        width:100%;
+        
+    }
+    #menu h2{
+        color: rgb(0, 4, 17);
+        text-align:center;
+    }
+    .menu h3{
+        color: rgb(0, 4, 17);
+        text-align:center;
+        border:2px solid rgb(0, 4, 17);
+        width: 70%;
+        margin:1% auto;
+    }
+    .menu h4{
+        color: rgb(0, 4, 17); 
+       flex-direction:column;
+       justify-content:center;
+       text-align:center;
+    }
+    .menu-item{
+        
+        flex-direction: column;
+        flex-wrap:nowrap;
+        justify-content:center;
+        padding-bottom:1%;
+        width:70%;
+        margin: 0 auto;
+        border-bottom: 1px solid rgb(0, 4, 17);
+    }
+    .menu-item:last-child{
+        border-bottom: none;
+    }
+    .menu p{
+        color: rgb(0, 4, 17);
+        text-align:center;
+        
+        /* display:block;  */
+    }
+    
+
+    
 }
