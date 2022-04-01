@@ -94,7 +94,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
-header div{
+header div.top{
     background-color: rgb(0, 4, 17, .8);
 }
 .header{
@@ -102,21 +102,32 @@ header div{
     font-size:4rem;
     padding: 2%;
 }
-header nav{
+/* header nav{
     display:flex;
     align-items:center;
     justify-content: space-around;
     padding-bottom:2%;
-}
+} */
 header nav a{
     font-size:1.5rem;
 }
-header nav.social{
+header div.social{
     display:flex;
+    width:100%;
     justify-content: center;
-    margin-top: 2%;
+    
     column-gap: 5%;
-     
+    background-color:none;
+   padding:1%;
+}
+header div.links{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    width:80%;
+    margin: 2% auto;
+    column-gap: 5%;
+    background-color:none;
 }
 .fa-brands{
     font-size:3rem;
